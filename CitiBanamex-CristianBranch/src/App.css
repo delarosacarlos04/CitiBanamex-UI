@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background: linear-gradient(rgba(0, 71, 133, 0.75), rgba(0, 71, 133, 0.75)),
+    url(./images/city-line-silhouette.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vmin;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input-field label {
+  color: white;
+  font-size: 17px;
+}
+
+.input-field input {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 white !important;
+}
+
+.input-field input:focus + label {
+  color: white !important;
+  font-size: 17px;
+}
+
+.row .input-field input:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 white !important;
+  font-size: 25px;
+}
+
